@@ -1,0 +1,31 @@
+/* .landingpage{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+} */
+.hero{
+    width: 75vw;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    @media (max-width: 650px) {
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+}
+b{
+    font-weight: 700;
+    color: #9067C6;
+}
+
+.img-div{
+    margin-bottom: 70px;
+    @media (max-width: 650px) {
+        margin-bottom: 0;
+      }
+}
+
+
+
+ 
